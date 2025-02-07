@@ -13,16 +13,37 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tudominio.sindicatoapp", 
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.tudominio.sindicatoapp",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-notifications" 
+    ],
+    "extra": {
+
+      "eas": {
+        "projectId": "60c376e2-b935-4eee-ad4f-946de27c66f4"},
+      "firebase": { 
+        "apiKey": "AIzaSyDFS5n2Md2gZlFHaLq365vys68_p1qP8uE",
+        "authDomain": "app-sindical-1cb0c.firebaseapp.com",
+        "projectId": "app-sindical-1cb0c",
+        "storageBucket": "app-sindical-1cb0c.firebasestorage.app",
+        "messagingSenderId": "959748125663",
+        "appId": "1:959748125663:web:2c1763fc03e73c8fa94a6a",
+        "measurementId": "G-MQNPR08VDS"
+      }
     }
   }
 }
